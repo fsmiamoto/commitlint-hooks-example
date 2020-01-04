@@ -1,0 +1,9 @@
+#!/bin/sh
+#
+# Verify the commit message with commitlint
+#
+# This script is given the name of the file containing the 
+# commit message
+#
+
+commitlint -e "$1"
